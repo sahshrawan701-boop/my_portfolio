@@ -1,15 +1,8 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "https://my-portfolio-shrawan-kumar-sahs-projects.vercel.app/",
-      "permanent": true
-    },
+  "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://my-portfolio-shrawan-kumar-sahs-projects.vercel.app/$1",
-      "permanent": true
+      "destination": "/index.html"
     }
   ]
 }

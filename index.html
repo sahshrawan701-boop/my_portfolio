@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Redirect from old deployment URL if cached or loaded client-side -->
+    <script>
+      if (window.location.hostname === 'my-portfolio-six-livid-91.vercel.app') {
+        window.location.replace('https://my-portfolio-shrawan-kumar-sahs-projects.vercel.app' + window.location.pathname + window.location.search + window.location.hash);
+      }
+    </script>
     <title>Shrawan Kumar Sah | Full Stack Engineer — React.js · TypeScript · Node.js</title>
     
     <!-- SEO & Social Meta Tags -->
